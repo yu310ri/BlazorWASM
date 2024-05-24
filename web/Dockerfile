@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:latest AS build-env
 WORKDIR /app
 # 対象プロジェクトをapp配下にコピー
-COPY ../WorkSpace/HelloBlazor ./
+COPY ../WorkSpace/HelloBlazor .
 # csprojがある階層で実行
 RUN dotnet publish -c Release -o output
 
