@@ -2062,11 +2062,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\docker\\BlazorWASM\\HelloBlazor\\HelloBlazor.csproj",
+      "projectUniqueName": "C:\\docker\\BlazorWASM\\WorkSpace\\HelloBlazor\\HelloBlazor.csproj",
       "projectName": "HelloBlazor",
-      "projectPath": "C:\\docker\\BlazorWASM\\HelloBlazor\\HelloBlazor.csproj",
+      "projectPath": "C:\\docker\\BlazorWASM\\WorkSpace\\HelloBlazor\\HelloBlazor.csproj",
       "packagesPath": "C:\\Users\\torik\\.nuget\\packages\\",
-      "outputPath": "C:\\docker\\BlazorWASM\\HelloBlazor\\obj\\",
+      "outputPath": "C:\\docker\\BlazorWASM\\WorkSpace\\HelloBlazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\torik\\AppData\\Roaming\\NuGet\\NuGet.Config",

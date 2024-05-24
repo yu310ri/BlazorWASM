@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iUQDPnDXWzEfLlU86/0XzZWvsDi8Iid/Fykudne8hL8CjGeWmViSL1UJDLTHB8H1f148MafPRnUYnuupL5FCzg==",
+  "dgSpecHash": "bD9eZGTTT5kRurZtN/GlaTWoL1Zs/4R8Q8LtIIQwijbEJk4+Ps3V2vPkUPgrrxE3+5APnKdgz5vxAkK5AT+yHQ==",
   "success": true,
-  "projectFilePath": "C:\\docker\\BlazorWASM\\HelloBlazor\\HelloBlazor.csproj",
+  "projectFilePath": "C:\\docker\\BlazorWASM\\WorkSpace\\HelloBlazor\\HelloBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\torik\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "C:\\Users\\torik\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
