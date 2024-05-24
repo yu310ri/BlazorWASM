@@ -2,8 +2,6 @@ version: '1'
 
 services:
   web:
-    volumes:
-      - ./WorkSpace:/app/WorkSpace
     build: ./web
     ports:
       - 8080:8080
