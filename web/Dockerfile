@@ -3,7 +3,7 @@ WORKDIR /app
 # 対象プロジェクトをapp配下にコピー
 COPY . ./
 # csprojがある階層で実行
-RUN dotnet publish -c Release -o output /WorkSpace/HelloBlazor
+RUN dotnet publish -c Release -o output /WorkSpace/HelloBlazor/HelloBlazor.csproj
 
 FROM nginx:alpine
 WORKDIR /var/wwwroot
