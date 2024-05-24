@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:latest AS build-env
-WORKDIR /app/WorkSpace
+WORKDIR /app/WorkSpace/HelloBlazor
 # 対象プロジェクトをapp配下にコピー
 # COPY . ./
 # csprojがある階層で実行
-RUN dotnet publish -c Release -o output HelloBlazor
+RUN dotnet publish -c Release -o output 
 
 FROM nginx:alpine
 WORKDIR /var/wwwroot
