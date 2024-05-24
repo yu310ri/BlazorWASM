@@ -2,6 +2,7 @@ version: '1'
 
 services:
   web:
+    restart: always
     build: ./web
     ports:
       - 8080:8080
