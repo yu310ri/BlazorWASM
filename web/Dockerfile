@@ -7,6 +7,6 @@ RUN dotnet publish -c Release -o output
 
 FROM nginx:alpine
 WORKDIR /var/wwwroot
-# 発行されたプロジェクトのwwwrootをnginzの公開フォルダにコピー
+# 発行されたプロジェクトのwwwrootをnginxの公開フォルダにコピー
 COPY --from=build-env /app/output/wwwroot .
 COPY nginx.conf /etc/nginx/nginx.conf
